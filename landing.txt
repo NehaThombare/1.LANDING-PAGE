@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Website Development</h1>
+  
+</div>
+
+<div class="content">
+  <h1>Content:</h1>
+</div>
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <img src="html.png" alt="html" width="230"  height="230" hspace=100 vspace=30>
+      <h2>HTML</h2>
+      <p>HTML is the standard markup language for Web pages.</p>
+       <p> With HTML you can create your own Website</p>
+       <b>What is HTML?</b>
+       <ul>
+        <li> HTML stands for Hyper Text Markup Language</li>
+        <li>HTML is the standard markup language for creating Web pages</li>
+        <li>HTML describes the structure of a Web page</li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+    </ul>
+    <a href="https://www.w3schools.com/html/">Learn more</a> 
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <img src="css.png" width="230"  height="230" hspace=120 vspace=30>
+      <h2>CSS</h2>
+      <p>CSS is the language we use to style an HTML document.</p>
+      <p>CSS describes how HTML elements should be displayed.</p>
+      <b>What is CSS?</b>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+      </ul>
+      <a href="https://en.wikipedia.org/wiki/CSS">Learn more</a>
+
+    </div>
+    <div class="column" style="background-color:#ccc;">
+        <img src="javascript_logo.png" width="230"  height="230" hspace=120 vspace=30>
+      <h2>JavaScript</h2>
+      <p>JavaScript is the world's most popular programming language.</p>
+      <p>JavaScript is the programming language of the Web.</p>
+      <p>JavaScript is easy to learn.</p>
+      <b>Why to learn JavaScript?</b>
+      <p>JavaScript is one of the 3 languages all web developers must learn:</p>
+    <ol>
+        <li>
+            HTML to define the content of web pages
+        </li>
+        <li> CSS to specify the layout of web pages</li>
+        <li>JavaScript to program the behavior of web pages</li>
+    </ol>
+    <a href="https://en.wikipedia.org/wiki/JavaScript">Learn more</a>
+    </div>
+  </div>
+
+</body>
+</html>
